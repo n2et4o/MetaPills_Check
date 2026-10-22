@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#1F4E79"              # bleu foncé : contraste élevé sur fond blanc
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F5F9"  # fond de la barre latérale
+textColor = "#1A1A1A"                 # quasi-noir : lisibilité maximale
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false              # pas de statistiques d'usage envoyées
+
+[server]
+headless = true                       # pas d'ouverture de navigateur côté serveur

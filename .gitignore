@@ -1,0 +1,26 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Données brutes : trop lourdes pour GitHub (scripts/download_data.py les retélécharge)
+data/raw/*
+!data/raw/.gitkeep
+*.tar.gz
+
+# ATTENTION : data/processed/ n'est PAS ignoré -> il doit aller sur GitHub (l'app en a besoin)
+
+# Rapports et archives générés localement
+inspection.txt
+build_report.txt
+StApp26_*.zip
+
+# Secrets Streamlit (jamais sur GitHub)
+.streamlit/secrets.toml
+
+# Fichiers système / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

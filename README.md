@@ -4,7 +4,7 @@
 **An interactive Streamlit data story on the European MetaCardis cohort - in French and English.**
 
 - 🌐 **Application en ligne / Live app :**  [`Metapills_check`](https://biubqvxn92kk2cuqmgvk43.streamlit.app/?lang=fr)
-- 🎬 **Vidéo de démonstration / Demo video :** `À COMPLÉTER / TO FILL IN`
+- 🎬 **Vidéo de démonstration / Demo video :**  [`demo`](https://drive.google.com/file/d/1YxwOexxM1ih7XQ1eyh1ZhTEIKw6cYGkw/view?usp=drivesdk) 
 - 👤 **Auteur / Author :** Joss DOUNIAMA OKANA - 20220848 - groupe BIO
 - 📦 **Données / Data :** MetaCardis, Zenodo, DOI [10.5281/zenodo.6242715](https://doi.org/10.5281/zenodo.6242715), licence CC BY 4.0 - détails dans [`DATA_SOURCE.md`](DATA_SOURCE.md)
 

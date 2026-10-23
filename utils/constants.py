@@ -92,3 +92,20 @@ VARIABLE_FR = {
     "ANTIBIOTICS_TOTAL": "Cures d'antibiotiques", "SMOKE": "Tabac",
     "aHEI": "Qualité de l'alimentation (aHEI)", "DASH": "Score alimentaire DASH",
 }
+
+# --- Carte d'identité affichée en haut de l'app (à compléter) ---------------------
+# Laisser "" pour masquer un champ. Le logo est optionnel : assets/logo.png
+AUTHOR = {
+    "name": "Joss DOUNIAMA OKANA",
+    "email": "meitoh.douniama-okana@efrei.net",                                   # ex. "joss.douniama-okana@efrei.net"
+    "student_id": "20220848",
+    "program": "BIO",                                 
+    "year": "M1 - 2026-2027",                                    
+    "group": "BIO",
+    "linkedin": "https://www.linkedin.com/in/joss-douniama/?isSelfProfile=true",                                # ex. "https://www.linkedin.com/in/..."
+    "github": "https://github.com/n2et4o",
+    "course": "Data Storytelling Dashboard with Streamlit",
+    "professor": "Mano Joseph MATHEW",
+    "professor_email": "mano.mathew@efrei.fr",
+}
+#LOGO_FILE = ROOT / "assets" / "logo.png"

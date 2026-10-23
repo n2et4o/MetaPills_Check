@@ -44,7 +44,7 @@
     "table_view": "See this chart's data"
   },
   "footer": {
-    "source": "Source: {authors} - MetaCardis, version {version}, DOI {doi}.",
+    "source": "Source: {authors} — MetaCardis, version {version}, DOI {doi}.",
     "license": "License {license}. Paper: {paper}.",
     "disclaimer": "Associations shown are statistical: they do not prove cause and effect and are not medical advice."
   },
@@ -239,5 +239,13 @@
     "how_title": "🔎 How these answers are computed",
     "how": "- **Footprint** = share of tested features that are **robustly** changed (FDR below the chosen threshold and not explained by another factor). We compare **rates**, because the drug and the disease were not tested on the same number of features.\n- **Stronger / comparable / weaker**: more than a 20% gap between the two rates.\n- **Strength**: median absolute effect size of robust associations.\n- **Origin of effects**: deconfounding status computed by the study authors (*metadeconfoundR* tool). A \"confounded\" association is explained by another variable, which we group into 5 families.",
     "medical": "These results describe **statistical trends in a group of patients**, not a drug's effect in one person. Never change a treatment without medical advice."
+  },
+  "author": {
+    "program": "Program",
+    "year": "Year",
+    "student_id": "Student ID",
+    "group": "Group",
+    "course": "Course",
+    "professor": "Professor"
   }
 }

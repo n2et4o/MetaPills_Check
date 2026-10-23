@@ -86,3 +86,35 @@ def legend(kinds: list[str]) -> None:
     items = [f"<span style='color:{KIND_COLORS[k]};font-size:1.1em'>■</span> {kind_name(k)}"
              for k in kinds]
     st.markdown("&nbsp;&nbsp;·&nbsp;&nbsp;".join(items), unsafe_allow_html=True)
+
+
+def author_card() -> None:
+    """Cadre « carte d'identité » en haut de l'app : logo + auteur + cours."""
+    from utils.constants import AUTHOR as a, LOGO_FILE
+
+    def link(text: str, url: str) -> str:
+        return f"[{text}]({url})" if url else ""
+
+    line1 = f"**{a['name']}**" + (f" · [{a['email']}](mailto:{a['email']})" if a["email"] else "")
+    line2 = " · ".join(x for x in [
+        f"**{t('author.program')}:** {a['program']}" if a["program"] else "",
+        f"**{t('author.year')}:** {a['year']}" if a["year"] else "",
+        f"**{t('author.student_id')}:** {a['student_id']}" if a["student_id"] else "",
+        f"**{t('author.group')}:** {a['group']}" if a["group"] else "",
+    ] if x)
+    line3 = " · ".join(x for x in [link("LinkedIn", a["linkedin"]), link("GitHub", a["github"])] if x)
+    line4 = f"**{t('author.course')}:** {a['course']}" if a["course"] else ""
+    line5 = (f"**{t('author.professor')}:** {a['professor']}"
+             + (f" · [{a['professor_email']}](mailto:{a['professor_email']})" if a["professor_email"] else "")
+             if a["professor"] else "")
+
+    with st.container(border=True):
+        logo_col, info_col = st.columns([1, 4], vertical_alignment="center")
+        with logo_col:
+            if LOGO_FILE.exists():
+                st.image(str(LOGO_FILE), width="stretch")
+            else:   # pas de logo fourni : simple pastille texte
+                st.markdown("<div style='font-size:2.2rem;font-weight:800;color:#1F4E79;"
+                            "text-align:center'>EFREI</div>", unsafe_allow_html=True)
+        with info_col:
+            st.markdown("  \n".join(x for x in [line1, line2, line3, line4, line5] if x))

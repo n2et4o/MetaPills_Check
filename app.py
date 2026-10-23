@@ -1,5 +1,5 @@
 """
-Médicaments, microbiote et métabolisme - un récit de données sur la cohorte MetaCardis.
+Médicaments, microbiote et métabolisme — un récit de données sur la cohorte MetaCardis.
 
 Lancer :  streamlit run app.py
 Structure :
@@ -9,7 +9,7 @@ Structure :
 import streamlit as st
 
 from sections import conclusions, data_quality, deep_dives, intro, my_drug, network, overview
-from sections.common import SECTIONS, Context
+from sections.common import SECTIONS, Context, author_card
 from utils.filters import apply_filters, lang_widget_key, sidebar_filters, sync_widget, tested_counts
 from utils.i18n import language_selector, t
 from utils.io import SOURCE, load_cohort, load_drug_usage, load_quality_report
@@ -33,6 +33,7 @@ section = st.session_state["section"]
 filters = sidebar_filters()
 
 # --- En-tête commun -------------------------------------------------------------
+author_card()
 st.title(t("app.title"))
 st.caption(t("app.subtitle"))
 

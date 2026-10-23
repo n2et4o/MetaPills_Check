@@ -108,4 +108,4 @@ AUTHOR = {
     "professor": "Mano Joseph MATHEW",
     "professor_email": "mano.mathew@efrei.fr",
 }
-#LOGO_FILE = ROOT / "assets" / "logo.png"
+LOGO_FILE = ROOT / "assets" / "logo.png"

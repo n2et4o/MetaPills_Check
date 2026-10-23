@@ -1,5 +1,5 @@
 """
-Médicaments, microbiote et métabolisme — un récit de données sur la cohorte MetaCardis.
+Médicaments, microbiote et métabolisme - un récit de données sur la cohorte MetaCardis.
 
 Lancer :  streamlit run app.py
 Structure :

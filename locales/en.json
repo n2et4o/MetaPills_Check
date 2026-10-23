@@ -44,7 +44,7 @@
     "table_view": "See this chart's data"
   },
   "footer": {
-    "source": "Source: {authors} — MetaCardis, version {version}, DOI {doi}.",
+    "source": "Source: {authors} - MetaCardis, version {version}, DOI {doi}.",
     "license": "License {license}. Paper: {paper}.",
     "disclaimer": "Associations shown are statistical: they do not prove cause and effect and are not medical advice."
   },

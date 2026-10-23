@@ -1,12 +1,12 @@
 # 🧬 Médicaments, microbiote et métabolisme · Drugs, microbiome and metabolism
 
-**Un récit de données interactif (Streamlit) sur la cohorte européenne MetaCardis — en français et en anglais.**
-**An interactive Streamlit data story on the European MetaCardis cohort — in French and English.**
+**Un récit de données interactif (Streamlit) sur la cohorte européenne MetaCardis - en français et en anglais.**
+**An interactive Streamlit data story on the European MetaCardis cohort - in French and English.**
 
-- 🌐 **Application en ligne / Live app :** `À COMPLÉTER / TO FILL IN (https://….streamlit.app)`
+- 🌐 **Application en ligne / Live app :**  [`Metapills_check`](https://biubqvxn92kk2cuqmgvk43.streamlit.app/?lang=fr)
 - 🎬 **Vidéo de démonstration / Demo video :** `À COMPLÉTER / TO FILL IN`
-- 👤 **Auteur / Author :** Joss DOUNIAMA OKANA — 20220848 — groupe BIO
-- 📦 **Données / Data :** MetaCardis, Zenodo, DOI [10.5281/zenodo.6242715](https://doi.org/10.5281/zenodo.6242715), licence CC BY 4.0 — détails dans [`DATA_SOURCE.md`](DATA_SOURCE.md)
+- 👤 **Auteur / Author :** Joss DOUNIAMA OKANA - 20220848 - groupe BIO
+- 📦 **Données / Data :** MetaCardis, Zenodo, DOI [10.5281/zenodo.6242715](https://doi.org/10.5281/zenodo.6242715), licence CC BY 4.0 - détails dans [`DATA_SOURCE.md`](DATA_SOURCE.md)
 
 *English version below → [English](#english)*
 
@@ -33,7 +33,7 @@ Les patients atteints de maladies cardiométaboliques (obésité, diabète de ty
 | # | Section | Rôle dans le récit |
 |---|---|---|
 | 1 | Pourquoi c'est important | **Accroche** + contexte, glossaire vulgarisé, cohorte (carte, polymédication) |
-| 2 | Vue d'ensemble | Médicaments vs maladie vs mode de vie — comparaison **en taux** |
+| 2 | Vue d'ensemble | Médicaments vs maladie vs mode de vie - comparaison **en taux** |
 | 3 | Le réseau d'interactions | Réseau médicaments → microbiote / métabolome, « carrefours » partagés |
 | 4 | Analyses détaillées | Un médicament à la loupe, heatmap, **facteurs de confusion** |
 | 5 | Et mon médicament ? | Page **grand public** : plus fort que la maladie ? médicament ou milieu ? |
@@ -171,7 +171,7 @@ Patients with cardiometabolic diseases (obesity, type 2 diabetes, coronary disea
 | # | Section | Role |
 |---|---|---|
 | 1 | Why it matters | **Hook** + context, plain-language glossary, cohort (map, polypharmacy) |
-| 2 | Overview | Drugs vs disease vs lifestyle — compared **as rates** |
+| 2 | Overview | Drugs vs disease vs lifestyle - compared **as rates** |
 | 3 | Interaction network | Drug → microbiome / metabolome network, shared "crossroads" |
 | 4 | Deep dives | One drug up close, heatmap, **confounders** |
 | 5 | What about my drug? | **General-public** page: stronger than the disease? drug or setting? |
@@ -228,4 +228,4 @@ python scripts/check_locales.py      # checks French and English are complete
 
 ---
 
-*Données : Forslund et al., MetaCardis Consortium — CC BY 4.0. Data: Forslund et al., MetaCardis Consortium — CC BY 4.0.*
+*Données : Forslund et al., MetaCardis Consortium - CC BY 4.0. Data: Forslund et al., MetaCardis Consortium - CC BY 4.0.*

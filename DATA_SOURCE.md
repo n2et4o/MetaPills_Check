@@ -1,11 +1,11 @@
 # Jeu de données / Dataset
 
-**Data analysis pipeline for investigating drug-host-microbiome relationships in cardiometabolic disease (MetaCardis cohort)** — version 1.1.0
+**Data analysis pipeline for investigating drug-host-microbiome relationships in cardiometabolic disease (MetaCardis cohort)** - version 1.1.0
 
 - **Auteurs / Authors :** Forslund S.K., Chakaroun R., Zimmermann-Kogadeeva M., Markó L., Aron-Wisnewsky J., Nielsen T., Birkner T. (MetaCardis Consortium)
 - **DOI :** [10.5281/zenodo.6242715](https://doi.org/10.5281/zenodo.6242715)
 - **Lien direct / Direct link :** https://zenodo.org/records/6242715
-- **Portail / Portal :** data.europa.eu — fiche du jeu / dataset page : https://data.europa.eu/data/combined?locale=en&query=drug-host-microbiome&page=1
+- **Portail / Portal :** data.europa.eu - fiche du jeu / dataset page : https://data.europa.eu/data/combined?locale=en&query=drug-host-microbiome&page=1 
 - **Licence :** [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 - **Article associé / Related paper :** Forslund et al. (2021). *Combinatorial, additive and dose-dependent drug–microbiome associations.* Nature 600, 500–505.
 
